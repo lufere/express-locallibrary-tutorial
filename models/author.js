@@ -52,6 +52,8 @@ AuthorSchema
   return this.date_of_death ? moment(this.date_of_death).format('YYYY-MM-DD') : '';
 });
 
+
+
 AuthorSchema
 .virtual('lifespan')
 .get(function() {
